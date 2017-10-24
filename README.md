@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Simple Weather app, weather data by [OpenWeatherMap API](http://openweathermap.org/).
 
-Things you may want to cover:
+# System dependencies
 
-* Ruby version
+* Ruby 2.4.2
+* Rails 5.1.4
+* PostgreSQL
 
-* System dependencies
+# Setup
+
+Run just `bin/setup` at project root directory.
 
 * Configuration
 
+(TODO)
+
 * Database creation
+
+(TODO)
 
 * Database initialization
 
+(TODO)
+
 * How to run the test suite
+
+(TODO)
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+(TODO)
