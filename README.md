@@ -12,9 +12,13 @@ This is Simple Weather app, weather data by [OpenWeatherMap API](http://openweat
 
 Run just `bin/setup` at project root directory.
 
-* Configuration
+# Configuration
 
-(TODO)
+Setup MasterData of City.
+
+```
+curl -L http://bulk.openweathermap.org/sample/city.list.min.json.gz | gunzip -c > db/masters/cities.json
+```
 
 * Database creation
 
