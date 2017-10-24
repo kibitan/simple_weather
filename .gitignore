@@ -21,3 +21,6 @@
 # Ignore static Master files
 db/masters/*
 !/db/masters/.keep
+
+# Ignore Direnv setting file
+.envrc
