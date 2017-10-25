@@ -42,4 +42,6 @@ curl -L http://bulk.openweathermap.org/sample/city.list.min.json.gz | gunzip -c 
 
 # Improvement Point
 
+* MasterData of City is in static file, but it is easy with deal with geographic location to store in database, I choose simple way for first implementation.
+
 * for production, better to use [encrypted secrets.yml](http://guides.rubyonrails.org/5_1_release_notes.html#encrypted-secrets)
