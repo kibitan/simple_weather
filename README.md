@@ -34,7 +34,7 @@ curl -L http://bulk.openweathermap.org/sample/city.list.min.json.gz | gunzip -c 
 
 * How to run the test suite
 
-(TODO)
+run `bundle exec rspec`
 
 * Services (job queues, cache servers, search engines, etc.)
 
