@@ -14,7 +14,11 @@ Run just `bin/setup` at project root directory.
 
 # Configuration
 
-Setup MasterData of City.
+* Setup API Key
+
+Sign up with following [How to start - OpenWeatherMap](http://openweathermap.org/appid) and set API key to Enviorment Varialble `OPEN_WEATHER_MAP_API_KEY` to `.direnv`.
+
+* Setup MasterData of City.
 
 ```
 curl -L http://bulk.openweathermap.org/sample/city.list.min.json.gz | gunzip -c > db/masters/cities.json
@@ -35,3 +39,7 @@ curl -L http://bulk.openweathermap.org/sample/city.list.min.json.gz | gunzip -c 
 * Services (job queues, cache servers, search engines, etc.)
 
 (TODO)
+
+# Improvement Point
+
+* for production, better to use [encrypted secrets.yml](http://guides.rubyonrails.org/5_1_release_notes.html#encrypted-secrets)
