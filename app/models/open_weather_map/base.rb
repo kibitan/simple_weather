@@ -16,7 +16,9 @@ module OpenWeatherMap
         request_url = api_url.dup.tap do |url|
           url.query = URI.encode_www_form(queries.merge(appid: APP_ID))
         end
-        Net::HTTP.get_response(request_url)
+        response = Net::HTTP.get_response(request_url)
+        # TODO: response error handling
+        new(JSON(response.body))
       end
     end
   end
